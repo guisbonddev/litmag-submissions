@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Rambunctious - Submit</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style type="text/css" media="screen">
+        .s-styles { 
+            background: #f2f2f2;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
+
+        .s-styles .section-intro h1 {
+            margin-top: 0;
+        }
+     </style> 
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    
+ <div class="s-pageheader">
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="images/ramb-light.png" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <ul class="header__social">
+                   <li>
+                        <a href="http://jdlitmag.org/"><i class="fa fa-arrow-left" aria-hidden="true"></i> Main Site</a>
+                    </li>
+                </ul> <!-- end header__social -->
+
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Menu</h2>
+
+                    <ul class="header__nav">
+                        <li><a href="index.html" title="">Information</a></li>
+                        <li><a href="#" title="">Submit</a></li>
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+</div> <!-- end s-pageheader -->
+
+
+    <!-- styles
+    ================================================== -->
+    <section id="styles" class="s-styles">
+    
+
+        <div class="row">
+
+            <div class="col-twelve tab-full">
+                <center>
+                    <h1 class="add-bottom">Submit to Rambunctious Literary Magazine</h1>
+                    <div class="alert-box alert-box--info hideit">
+                        <p><b>Reminder: </b>Please read our policies about submitting under the "Information" tab before doing so.</p>
+                        <i class="fa fa-times alert-box__close"></i>
+                    </div> <!-- end error -->
+                </center>
+
+                <form  name="submissions" method="POST" netlify>
+                    <div>
+                        <label for="sampleInput">Name</label>
+                        <input class="full-width" type="text" placeholder="Name" name="name">
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">Email</label>
+                        <input class="full-width" type="email" placeholder="your@email.com" name="email">
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">Grade Level</label>
+                        <div class="cl-custom-select">
+                            <select class="full-width" name="grade">
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">English Teacher</label>
+                        <input class="full-width" type="text" placeholder="English Teacher" name="teacher">
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">Homeroom</label>
+                        <input class="full-width" type="text" placeholder="Homeroom" name="homeroom">
+                    </div>
+                    
+                    <label for="exampleMessage">Questions, Comments or Concerns?</label>
+                    <textarea class="full-width" placeholder="Your message" name="comments"></textarea>
+
+                    <label class="add-bottom">
+                        <label for="sampleRecipientInput">Add Files (Maximum size 1 MB)</label>
+                        <input class="full-width" name="files" type="file">
+                    </label>
+                    
+                    <input class="btn--primary full-width" type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end styles -->
+
+
+    <!-- s-footer
+    ================================================== -->
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+                
+                <div class="col-two md-four mob-full s-footer__sitelinks">
+                        
+                    <h4>Quick Links</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/library">Library</a></li>
+                        <li><a href="/submit">Submit</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__sitelinks -->
+
+
+                <div class="col-two md-four mob-full s-footer__social">
+                        
+                    <h4>Social</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="https://www.instagram.com/jdlitmag/">Instagram</a></li>
+                        <li><a href="https://twitter.com/jdlitmag?lang=en">Twitter</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__social -->
+
+                <div class="col-five md-full end s-footer__subscribe">
+                    <center> 
+                        <img style="padding-top: 30px;" src="https://lh3.googleusercontent.com/_OaZJ8CsJGc0-Dw1m2OQISU50-d92a0--JmwUBUuMcbUWAdBGWyxuC4kEP1JGsqpXqOMmXVkEN5rLG4Ix8M_S2EWJG81uzcMkT7lIAmMR6NLM00_6oLfV0asVSgxXl7rb8agUp-YU74JctiERi18Fac_jcJLiwyhM1hSQk1fmV2r1V8S10yKaE143Oc1V9jYrqWCVtab87uM-wQUzlYEbup0p4ZXDOA8nqSBXFi1cCkFRAsSZHsYT8wswfOAipxDuZ6lvBgHoq36rZBrE1db03KC2tESk45VX1hYWJ3KYtAscpot4xZfEheNyfMUaSPN7shl-5LtBHuQo38SncDPvKW255ifYpqCPCMw3tPi2Yh0k7pQaIgaLuC-8IyAtPLQimIrOWkcXFNMuL6vl3ii2MBuWtDX3AUPQyGII-Vao-Qli4w9Cqh6DHWEL_kH-TsE1CbpdF_DyUtuIycOZAqHmXXvWsJ2j8CCD2PJMDm5ODwbln-tWbC66zDqbkZlrb1PvWNYwgAQzXeRXsuuMD3WFv9dpFeZhmPl_7TUyZGo6FnokRGq2L7wW2mRpadn0ySyMBNi6UGoLCAsOnGlUzJfGdgvN61hZaB_=w1440-h826?pli=1&authuser=2" width="15%"><br>
+                        <img src="images/ramb-light.png" width="30%">
+                        <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Rambunctious Literary Magazine 2018</span> <br>
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a>, Code by Will Guisbond</span><br>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+                    </center>
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
+            
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
