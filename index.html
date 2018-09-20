@@ -104,16 +104,16 @@
                 <form  name="submissions" method="POST" netlify>
                     <div>
                         <label for="sampleInput">Name</label>
-                        <input class="full-width" type="text" placeholder="Name" id="name">
+                        <input class="full-width" type="text" placeholder="Name" name="name">
                     </div>
                     <div>
                         <label for="sampleRecipientInput">Email</label>
-                        <input class="full-width" type="email" placeholder="your@email.com" id="email">
+                        <input class="full-width" type="email" placeholder="your@email.com" name="email">
                     </div>
                     <div>
                         <label for="sampleRecipientInput">Grade Level</label>
                         <div class="cl-custom-select">
-                            <select class="full-width" id="grade">
+                            <select class="full-width" name="grade">
                                 <option value="9">9</option>
                                 <option value="10">10</option>
                                 <option value="11">11</option>
@@ -123,19 +123,19 @@
                     </div>
                     <div>
                         <label for="sampleRecipientInput">English Teacher</label>
-                        <input class="full-width" type="text" placeholder="English Teacher" id="teacher">
+                        <input class="full-width" type="text" placeholder="English Teacher" name="teacher">
                     </div>
                     <div>
                         <label for="sampleRecipientInput">Homeroom</label>
-                        <input class="full-width" type="text" placeholder="Homeroom" id="homeroom">
+                        <input class="full-width" type="text" placeholder="Homeroom" name="homeroom">
                     </div>
                     
                     <label for="exampleMessage">Questions, Comments or Concerns?</label>
-                    <textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
+                    <textarea class="full-width" placeholder="Your message" name="comments"></textarea>
 
                     <label class="add-bottom">
                         <label for="sampleRecipientInput">Add Files (Maximum size 1 MB)</label>
-                        <input class="full-width" type="file">
+                        <input class="full-width" name="files" type="file">
                     </label>
                     
                     <input class="btn--primary full-width" type="submit" value="Submit">
